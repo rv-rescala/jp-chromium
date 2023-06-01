@@ -1,0 +1,16 @@
+{
+  "extends": [
+    "@tsconfig/node16/tsconfig",
+    "@tsconfig/strictest"
+  ],
+  "compilerOptions": {
+    "declaration": true,
+    "lib": [
+      "dom"
+    ],
+    "outDir": "build",
+  },
+  "include": [
+    "source"
+  ]
+}
